@@ -1,0 +1,1 @@
+python export_inference_graph.py --input_type image_tensor  --pipeline_config_path training/ssd_mobilenet_v1_coco.config   --trained_checkpoint_prefix training/model.ckpt-60000   --output_directory watermark_graph_4
